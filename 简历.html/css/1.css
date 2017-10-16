@@ -1,0 +1,289 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.background {
+	width: 1600px;
+	height: 785px;
+	background-image: url(../img/jg.jpg);
+	background-position-x: -130px;
+	overflow: hidden;
+	position: relative;
+	margin: 0 auto;
+}
+
+.blackmao {
+	width:120px;
+	height: 300px;
+	position: absolute;
+	top: 224px;
+	left: 100px;
+}
+.blackmao img {
+	width:120px;
+	height:300px;
+}
+.fengye{
+	width:280px;
+	height:180px;
+	position: absolute;
+	/*top: 50px;*/
+	opacity: 0.5;
+}
+.fengye img{
+	width:280px;
+	height:180px;
+}
+.nav {
+	width: 1500px;
+	height: 95px;
+	background-image: url(../img/花瓣.gif);
+	margin: 0 auto;
+	padding-top: 15px;
+}
+
+.nav img {
+	float: left;
+}
+
+.nav .welcome {
+	width: 190px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	float: left;
+	margin: 0 200px 0 0;
+	border-radius: 3px;
+	font-size: 45px;
+	font-family: -webkit-pictograph;
+	color:#365A7C;
+}
+
+.nav .mainshow {
+	width: 150px;
+	height: 50px;
+	float: left;
+	text-align: center;
+	line-height: 50px;
+	margin-left: 90px;
+	border-radius: 3px;
+}
+
+.mainshow a {
+	font-family: "微软雅黑";
+	font-size: 20px;
+	color: #365A7C;
+	text-decoration: none;
+}
+
+.outbox {
+	width: 820px;
+	height: 500px;
+	background-color: rgba(0, 0, 0, 0.3);
+	margin: 30px auto;
+	position: absolute;
+	top: 160px;
+	left: 730px;
+}
+
+.xzq {
+	width: 234px;
+	height: 240px;
+	border: 1px solid #EBEBEB;
+	float: right;
+	text-align: center;
+	margin: 35px 35px 0 0;
+}
+
+.xzq span {
+	color: white;
+	font-size: 20px;
+}
+
+.laoxuephoto {
+	width: 230px;
+	height: 196px;
+	background-image: url(../img/mi.jpg);
+	border: 2px solid ghostwhite;
+}
+
+.gerenxinxi {
+	width: 480px;
+	height: 430px;
+	/*background-color: cadetblue;*/
+	float: left;
+	margin: 35px 0 0 40px;
+	border-top: 2px solid #C1C1C1;
+	border-bottom: 2px solid #C1C1C1;
+}
+
+.gerenxinxi h2 {
+	width: 100px;
+	height: 30px;
+	background-color: rgba(0, 0, 0, 0.2);
+	float: left;
+	margin-top: -15px;
+	color: white;
+}
+
+.gerenxinxi .list {
+	width: 480px;
+	height: 415px;
+	/*background-color: purple;*/
+	float: left;
+	color: white;
+}
+
+.gerenxinxi .list li {
+	width: 450px;
+	height: 35px;
+	list-style: none;
+	line-height: 45px;
+	/*border-bottom: 1px dashed #DEDEDE;*/
+	text-indent: 20px;
+	font-size: 16px;
+	float: left;
+	font-weight: bold;
+}
+
+.gerenxinxi .list span {
+	/*color: #999999;*/
+	float: left;
+	margin-right: 90px;
+}
+
+.box2 {
+	display: none;
+	background-image: url(../img/e.png);
+	border: 1px solid #2A376C;
+	background-position-x: -130px;
+	background-position-y: 105px;
+	border-radius: 0 0 0 70px;
+}
+
+.music {
+	width: 770px;
+	height: 350px;
+	/*background-color: salmon;*/
+	float: left;
+	margin-left: 60px;
+}
+
+.box2 h2 {
+	width: 120px;
+	height: 30px;
+	float: left;
+	margin-top: 20px;
+	margin-left: 60px;
+	text-align: center;
+}
+
+.music_one {
+	width: 250px;
+	height: 350px;
+	float: left;
+	margin-right: 6px;
+	text-indent: 10px;
+}
+
+.music_one li {
+	list-style: none;
+	width: 250px;
+	height: 50px;
+	line-height: 80px;
+}
+
+.music_one span {
+	margin-right: 40px;
+}
+
+.box3 {
+	display: none;
+	background-image: url(../img/w.jpg);
+	color: white;
+	line-height: 30px;
+	text-indent: 20px;
+	border-radius: 70px 0 0 0;
+}
+
+.jingli {
+	width: 666px;
+	height: 300px;
+	margin: 90px 0 0 70px;
+}
+
+.box4 {
+	width: 790px;
+	height: 460px;
+	margin: 0 auto;
+	border: 5px solid white;
+	border-bottom: 30px solid white;
+	border-radius: 0 0 0 50px;
+	display: none;
+	background-image: url(../img/E592.jpg);
+	line-height: 30px;
+	text-indent: 20px;
+	color: white;
+	overflow: hidden;
+}
+
+.project {
+	width: 790px;
+	height: 70px;
+	/*background-color: orange;*/
+}
+
+.project_one {
+	width: 200px;
+	height: 70px;
+	background-color: #FD6D52;
+	float: left;
+	margin: 0 30px 0 30px;
+	text-align: center;
+	line-height: 85px;
+	position: relative;
+}
+
+.project_one:hover img {
+	display: none;
+}
+
+.project_one a {
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	top: -12px;
+	left: 50px;
+	display: none;
+}
+
+.project_one:hover a {
+	display: block;
+}
+
+.project_two {
+	background-color: #AB93EB
+}
+
+.project_three {
+	background-color: #A0D468;
+}
+
+.project_four {
+	background-color: #3BAEDA;
+}
+
+.project_five {
+	background-color: #F4C18A;
+}
+
+.project_six {
+	background-color: #FDE15F;
+}
+
+.project-down {
+	float: left;
+	margin-top: 320px;
+}

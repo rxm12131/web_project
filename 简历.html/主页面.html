@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style type="text/css">
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			
+			.bgimage {
+				width: 1600px;
+				height: 750px;
+				margin: 0 auto;
+				background-image: url(img/1501814293505.jpg);
+				overflow: hidden;
+				position: relative;
+			}
+			
+			.jianbian {
+				width: 500px;
+				height: 650px;
+				/*background-color: rgba(0,0,0,0.5);*/
+				float: left;
+				margin: 190px 0 0 600px;
+			}
+			
+			.touxiang {
+				width: 170px;
+				height: 170px;
+				border-radius: 100%;
+				border: 3px solid white;
+				overflow: hidden;
+				margin: 0 auto;
+				animation: 15s datu infinite linear;
+			}
+			
+			@-webkit-keyframes datu {
+				0% {
+					transform: rotate(0deg);
+				}
+				100% {
+					transform: rotate(360deg);
+				}
+			}
+			
+			.touxiang img {
+				width: 170px;
+				height: 170px;
+				border-radius: 100%;
+				/*transition: all 5s;*/
+			}
+			
+			#resume {
+				width: 490px;
+				height: 50px;
+				/*border-top: 2px solid white;
+				border-bottom: 2px solid white;*/
+				float: left;
+				margin-top: 120px;
+				text-align: center;
+			}
+			
+			#resume a {
+				text-decoration: none;
+				color: white;
+				font-size: 35px;
+			}
+			
+			.box_yuan {
+				width: 80px;
+				height: 80px;
+				background-image: url(img/fdf4.jpg);
+				border-radius: 50%;
+				text-align: center;
+				line-height: 80px;
+				font-size: 35px;
+				font-weight: bold;
+				/*margin: 0 auto;*/
+				color: white;
+				position: absolute;
+				top: 0;
+				left:70px;
+			}
+			.box_jie{left:400px;}
+			.box_he{left:1050px;}
+			.box_ping{left:1360px;}
+			
+			.box_shiline{
+				width: 5px;
+				height: 400px;
+				background-image:url(img/eee.jpg) ;
+				border-radius: 0 0 5px 5px;
+				top: -400px;
+				left:110px;
+			}
+			.box_jieline{
+				height: 300px;
+				top: -300px;
+				left: 440px;
+			}
+			.box_heline{
+				height: 300px;
+				top: -300px;
+				left: 1085px;
+			}
+			.box_pingline {
+				left:1400px;
+			}
+			.name {
+				width: 160px;
+				height: 60px;
+				position: absolute;
+				left: 1200px;
+				top: 600px;
+				cursor: pointer;
+			}
+			
+			.name img {
+				width: 160px;
+				height: 60px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<!--背景图-->
+		<div class="bgimage">
+			<!--世界和平盒子-->
+				<div class="box_yuan box_shiline"></div>
+				<div class="box_yuan">世</div>
+				<div class="box_yuan box_shiline box_jieline"></div>
+				<div class="box_yuan box_jie">界</div>
+				<div class="box_yuan box_shiline box_heline"></div>
+				<div class="box_yuan box_he">和</div>
+				<div class="box_yuan box_shiline box_pingline"></div>
+				<div class="box_yuan box_ping">平</div>
+			<!--中间的盒子-->
+			<div class="jianbian">
+				<div class="touxiang">
+					<img src="img/eee.jpg" />
+				</div>
+				<div id="resume">
+					<a href="简历.html">MY RESUME</a>
+				</div>
+			</div>
+			<div class="name">
+				<img src="img/20170805165526.png" />
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript" src="js/animate.js" ></script>
+<script>
+	var oResume = document.getElementById('resume');
+	oResume.onmousemove = function(){
+		this.style.borderTop= '2px solid white';
+		this.style.borderBottom= '2px solid white';
+	}
+	document.onmouseup = function(){
+		oResume.onmousemove = null;
+	}
+	var oDiv= document.getElementsByClassName('box_yuan');
+	 
+	 animate(oDiv[0], {"top":0}, 1000, "BackEaseInOut");
+	 animate(oDiv[1], {"top":400}, 1000, "BackEaseInOut");
+	 animate(oDiv[2], {"top":0}, 2000, "BackEaseInOut");
+	 animate(oDiv[3], {"top":300}, 2000, "BackEaseInOut");
+	 animate(oDiv[4], {"top":0}, 3000, "BackEaseInOut");
+	 animate(oDiv[5], {"top":300}, 3000, "BackEaseInOut");
+	 animate(oDiv[6], {"top":0}, 4000, "BackEaseInOut");
+	 animate(oDiv[7], {"top":400}, 4000, "BackEaseInOut");
+</script>
+</html>

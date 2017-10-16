@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style type="text/css">
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			
+			.gameview {
+				width: 400px;
+				height: 400px;
+				background-color: cadetblue;
+				margin: 50px auto;
+			}
+			.top{
+				width: 300px;
+				height: 50px;
+				background-image:url(img/ff.jpg);
+				background-position-x: 30px;
+				background-position-y: 10px;
+				font-size: 40px;
+				/*color: white;*/
+				text-align: center;
+				line-height: 50px;
+				margin: 30px auto;
+			}
+			#bushu{
+				width: 100px;
+				height: 30px;
+				background-color:wheat;
+				margin: 30px auto;
+				text-align: center;
+				line-height: 30px;
+				border-radius:20px ;
+			}
+			.tupian{
+				width: 200px;
+				height: 200px;
+				background-color: cadetblue;
+				border-radius:100%;
+				position: absolute;
+				top: 25px;
+				left: 950px;
+				animation: 5s datu infinite linear;
+	        }
+			@-webkit-keyframes datu{
+				from{transform: rotate(360deg);}
+				to{transform: rotate(0deg);}
+			}
+			.tupian img{
+				width: 200px;
+				height: 200px;
+				border-radius:100%;
+				
+			}
+		</style>
+	</head>
+
+	<body background="img/duola.jpg">
+        <div class="top">找色块</div>
+        <div id="bushu">第0步</div>	
+        <div class="tupian">
+        	<img src="img/pp.jpg"/>
+        </div>
+        
+		<script type="text/javascript">
+			var rownum = 2;
+			var bushu=document.getElementById("bushu");
+			//		创建游戏界面
+			function game() {
+				//       	利用dom操作动态创建div
+				var view = document.createElement("div");
+				//       	把创建的div添加到body里边
+				view.className = "gameview";
+				document.body.appendChild(view);
+				//          产生一个随机数
+				var num = rownum * rownum;
+				var x = parseInt(Math.random() * num);
+				console.log(x);
+
+				for (var i = 0; i < rownum * rownum; i++) {
+
+					var cview = colorview();
+					view.appendChild(cview);
+
+					if (i == x) {
+						cview.style.opacity = 0.4;
+						cview.onclick = function() {
+							rownum++;
+							bushu.innerText="第"+(rownum-2)+"步"
+							document.body.removeChild(view);
+							game();
+						}
+
+					} else {
+						cview.onclick = function() {
+							rownum = 2;
+							bushu.innerText="第"+(rownum-2)+"步"
+							document.body.removeChild(view);
+							game();
+//							警告框
+							alert("重新开始吧");
+						}
+					}
+				}
+			}
+			game();
+			//       创建小盒子
+
+			function colorview() {
+				var cviewwidth = (400 - 3* (rownum + 1)) / rownum;
+				var cview = document.createElement("div");
+				cview.style.width = cviewwidth + "px";
+				cview.style.height = cviewwidth + "px";
+				cview.style.backgroundColor = "whitesmoke";
+				cview.style.margin = "3px 0 0 3px";
+				cview.style.float = "left"
+
+				return cview;
+			}
+		</script>
+	</body>
+
+</html>

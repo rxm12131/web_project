@@ -1,0 +1,1145 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style type="text/css">
+		*{
+				margin: 0;
+				padding: 0;
+			}
+		header{ 
+				width: 1100px;
+				height: 78px;
+				margin: 0 auto;
+			}
+			header .logo{
+				width: 310px;
+				height: 78px;
+				float: left;
+			}
+			header .nav{
+				width: 736px;
+				height: 78px;
+				float: left;
+			}
+			header .nav .nav0{
+				list-style: none;
+				width: 736px;
+				height: 78px;
+				background-image: url(img/nav.png);
+			}
+			header .nav .nav0:hover{
+				background-image: url(img/nav-on.png);
+			}
+			header .nav .nav1{
+				width: 99px;
+				float: left;
+				
+			}
+			header .nav .nav2{
+				width: 125px;
+				background-position-x: -99px;
+				float: left;
+				
+			}
+			header .nav .nav3{
+				width: 145px;
+				background-position-x: -224px;
+				float: left;
+				
+			}
+			header .nav .nav4{
+				width: 120px;
+				background-position-x: -369px;
+				float: left;
+				
+			}
+			header .nav .nav5{
+				width: 123px;
+				background-position-x: -489px;
+				float: left;
+				
+			}
+			header .nav .nav6{
+				width: 123px;
+				background-position-x: -612px;
+				float: left;
+			}
+			header .enter{ 
+				width: 54px;
+				height:65px;
+				float: left;
+				text-align: center;
+				color: dimgray;
+				font-size: 12px;
+				font-weight: 600;
+				padding-top:13px ;
+				line-height: 16px;
+			}
+			header .enter:hover{
+				color: blue;
+			}
+			header .enter img{
+				width: 30px;
+				height: 30px;
+			}
+		.banner{
+				width: 100%;
+				height: 400px;
+				/*background-color: aquamarine;*/
+				margin: 0 auto;
+				background-image: url(img/1.jpg);
+				background-size:100% 400px ;
+				animation:10s lunbo infinite linear;
+			}
+	 	    @-webkit-keyframes lunbo{
+				0%{
+					background-image: url(img/1.jpg);
+				}
+				25%{
+					background-image: url(img/2.jpg);
+				}
+				50%{
+					background-image: url(img/3.jpg);
+				}
+				75%{
+					background-image: url(img/4.jpg);
+				}
+				100%{
+				background-image: url(img/1.jpg);
+				}
+			}
+		.foreshow{
+			width: 1027px;
+			height: 220px;
+			/*background-color: blue;*/
+			margin: 0 auto;
+			margin-top: 15px;
+		}
+		.foreshow .yugao{
+			width: 1027px;
+			height: 190px;
+			background-image: url(img/live-bg.png);
+			background-repeat:no-repeat ;
+			background-position-x: 600px;
+		}
+		.foreshow .yugao .yugao-left{
+			width: 35px;
+			height: 48px;
+			/*background-color: red;*/
+			background-image: url(img/sliders-btn.png);
+			background-repeat:no-repeat ;
+			margin-top: 60px;
+			float: left;
+		}
+		.foreshow .yugao .yugao-right{
+			width: 35px;
+			height: 55px;
+			/*background-color: red;*/
+			background-image: url(img/sliders-btn.png);
+			background-repeat:no-repeat ;
+			margin-top: 60px;
+			background-position-y: -140px;
+			padding-left: 5px;
+			float: right;
+		}
+		.foreshow .yugao .yugao-img{
+			width: 239px;
+			height: 160px;
+			background-image: url(img/zhibo.png);
+			margin-top: 15px;
+			float: left;
+		}
+		.foreshow .yugao .yugao-wenzi{
+			width: 680px;
+			height: 190px;
+			/*background-color: navajowhite;*/
+			float: left;
+			padding-left: 30px;
+			
+		}
+		.foreshow .yugao .yugao-wenzi .biao{
+			background-image: url(img/icons.png);
+			background-repeat:no-repeat ;
+			text-indent: 20px;
+			font-size: 12px;
+			color: #BABABA;
+			margin-top: 22px;
+			margin-bottom: 22px;
+			background-position-y: -4px;
+		}
+		.foreshow .yugao .yugao-wenzi .dujiaoshou{
+			font-size: 14px;
+			line-height: 24px;
+		}
+		 article{
+			width: 100%;
+			background-color:#D6DAE2;
+			overflow: hidden;
+		}
+		.context{
+			width: 1000px;
+			margin: 0 auto;
+			margin-top: 20px;
+		}
+		.context .context-left{
+			width: 700px;
+			float: left;
+		}
+		.renmenkecheng{
+			width: 660px;
+			height: 290px;
+			background-color:#F2F1EF;
+			padding: 20px;
+			float: left;
+		}
+		.tuwen{
+			width: 660px;
+		    height: 35px;
+		    /*background-color: red;*/
+		}
+		.tuwen img{
+			display: block;
+	        margin-top: 5px;
+			margin-right: 10px;
+			float: left;
+		}
+		.tuwen h2{
+			float: left;
+		}
+		.tuwen span{
+			width: 30px;
+			height:35px;
+			font-size: 16px;
+			font-weight:600 ;
+			color: #888894;
+			display: block;
+			float: right;
+		}
+		.renmenxia{
+			width: 660px;
+			height: 245px;
+			/*background-color: bisque;*/
+			margin-top:10px;
+		}
+		.renmenxia .kandian{
+			width: 200px;
+			height: 245px;
+			background-color: white;
+			float: left;
+		}
+		.renmenxia .kandian  .tupian{
+			width: 200px;
+			height: 135px;
+		}
+		.tu1{
+			border-bottom: 3px solid blue;
+		}
+		.tu2{
+			border-bottom: 3px solid orange;
+		}
+		.tu3{
+			border-bottom: 3px solid yellowgreen;
+		}
+		.kan1,.kan2{
+			margin-left: 30px;
+		}
+	    .renmenxia .kandian .tupian img{
+			width: 200px;
+			height: 135px;
+		}
+		.renmenxia .kandian  a{
+			display: block;
+			text-decoration: none;
+			margin-top: 5px;
+			margin-bottom: 5px;
+			color: black;
+			font-size: 14px;
+			padding-left: 5px;
+		}
+		.renmenxia .kandian  p{
+			font-size: 14px;
+			padding: 5px;
+			line-height: 20px;
+			color: #888888;
+		}
+		.context-left  .ganhuofenxiang{
+			width:660px;
+			height: 500px;
+			background-color:#F2F1EF;
+			padding: 20px;
+			float: left;
+			margin-top: 20px;
+		}
+		.ganhuo1{
+			width:620px;
+			height: 100px;
+			background-color:white;
+			padding: 20px;
+			float: left;
+			margin-top: 20px;
+			background-image: url(img/icon-at.png);
+			background-repeat: no-repeat;
+			background-position-x: 565px;
+			background-position-y: -10px;
+		}
+		.ganhuo1 .ganhuotupian{
+			width: 150px;
+			height: 100px;
+			float: left;
+		}
+		.ganhuo1 .ganhuotupian img{
+			width: 150px;
+			height: 100px;
+		}
+		.ganhuo1 .ganhuowenzi{
+			width: 460px;
+			height: 100px;
+			float: left;
+			padding-left: 10px;
+		}
+		.ganhuo1 .ganhuowenzi .shijian{
+			background-image: url(img/icons.png);
+			background-repeat: no-repeat;
+			text-indent: 20px;
+			background-position-y: -4px;
+			font-size: 12px;
+			margin-top: 10px;
+			margin-bottom: 10px;
+		}
+		.ganhuo1 .ganhuowenzi .shenqi{
+			font-size: 13px;
+		}
+		.ganhuo2{
+			background-image: url(img/icon-video.png);
+		}
+		.ganhuo3{
+			background-image: url(img/icon-laptop.png);
+		}
+		.context-left .zhuanti{
+			margin-top: 20px;
+		}
+		.context-left .jingpin{
+			width: 660px;
+			height: 800px;
+			margin-top: 20px;
+			background-color:#F2F1EF;
+			padding:20px ;
+			float: left;
+		}
+		.jingpin .chanpin{
+			width: 315px;
+			height: 370px;
+			/*background-color: #9ACD32;*/
+			margin-top: 10px;
+			float: left;
+		}
+		.jingpin .chanpin .tubiao{
+			width: 315px;
+			height: 25px;
+			/*background-color: #F6F6F6;*/
+			background-image: url(img/bout-title-bg.png);	
+			background-repeat: no-repeat;
+			color: #A0E1F3;
+			text-indent:30px;
+		}
+		.jingpin .chanpin.tubiao span{
+			display: block;
+			float: right;
+			/*background-color: red;*/
+			color: #8888AA;
+		}
+		.jingpin .chanpin .jingpintu{
+			width: 315px;
+			height: 160px;
+			margin-top: 10px;
+		}
+		.jingpin .chanpin .jingpintu img{
+			width: 315px;
+			height: 160px;
+		}
+		.chanpin .yegou{
+			margin-top: 10px;
+			margin-bottom: 10px;
+		}
+		.chanpin .lisanshui{
+			font-size: 14px;
+			color:#8B8E9B ;
+		}
+		.chanpin .fabu{
+			background-image: url(img/icon-bout-list.png);
+			background-repeat: no-repeat;
+			text-indent: 20px;
+			margin-top:18px;
+			margin-bottom: 18px;
+			background-position-y: 8px;
+		}
+		.jingpin .yingxiao{
+			margin-left: 30px;
+		}
+		.jingpin .yingxiao .ying{
+			background-image: url(img/bout-title-bg.png);	
+			background-repeat: no-repeat;
+			background-position-y: -24px;
+			color: orange;
+		}
+		.jingpin .jishu .ji{
+			background-image: url(img/bout-title-bg.png);	
+			background-repeat: no-repeat;
+			background-position-y: -48px;
+			color: orange;
+		}
+		.jingpin .suzhi{
+			margin-left: 30px;
+		}
+		.jingpin .suzhi .su{
+			background-image: url(img/bout-title-bg.png);	
+			background-repeat: no-repeat;
+			background-position-y: -72px;
+			color: yellowgreen;
+		}
+        .context .context-right{
+			width: 270px;
+			/*background-color:blue;*/
+			margin-left: 30px;
+			float: left;
+		}
+		.context-right .right-up{
+			width: 230px;
+			height: 1170px;
+			background-color: #FCFAFB;
+			padding: 20px;
+		}
+		.context-right .right-up .top{
+			width: 230px;
+			height: 30px;
+			font-size: 20px;
+		}
+		.context-right .right-up .top img{
+			display: block;
+			margin-top: 3px;
+			margin-right: 10px;
+			float: left;
+		}
+		.context-right .right-up .top .pai{
+			display: block;
+			float: left;
+		}
+		.context-right .right-up .zuire{
+			width: 224px;
+			height: 35px;
+			font-size: 18px;
+			float: left;
+			margin-top: 25px;
+			/*background-color: palevioletred;*/
+			text-align: center;
+			line-height: 35px;
+			background-image: url(img/rank-tab-gray-bg.png);
+			background-repeat: no-repeat;
+			background-position-y: 1px;
+			padding-left: 2px;
+		}
+		.context-right .right-up .zuire .zui{
+			width: 109px;
+			height: 32px;
+			float: left;
+			border-top: 1px solid #CCCCCC;
+			border-left: 1px solid #CCCCCC;
+			border-right: 1px solid#CCCCCC;
+		}
+		.context-right .right-up .zuire .xin{
+			width: 110px;
+			height: 32px;
+			float:left;
+			border-bottom: 1px solid#CCCCCC;
+			color: #919EBC;
+		}
+		.context-right .right-up .zuida{
+			width: 230px;
+			height: 980px;
+		}
+		.context-right .right-up .zuida .weixin{
+			width: 230px;
+			height: 160px;
+			margin-top: 20px;
+			float: left;
+			position: relative;
+		}
+		.context-right .right-up .zuida .weixin img{
+			width: 230px;
+			height: 160px;
+		}
+		.context-right .right-up .zuida .weixinzi{
+			width: 230px;
+			height:30px;
+			position: absolute;
+			top: 130px;
+			color: white;
+			text-align: center;
+			line-height: 30px;
+		}
+		.weixinzi .shuzi{
+			width: 30px;
+			height:30px;
+			float: left;
+		}
+		.weixinzi .wenzi{
+			width: 200px;
+			height:30px;
+			background-color: black;
+			float: left;
+			font-size: 14px;
+			background-color: rgba(0,0,0,0.5);
+		}
+		.jia1{
+			background-color: red;
+			background-color: rgba(255,0,0,0.8);
+		}
+		.jia2{
+			background-color: brown;
+			background-color: rgba(200,50,0.5);
+		}
+		.jia3{
+			background-color: #FFA500;
+			background-color: rgba(225,165,0,0.8);
+		}
+		.context-right .right-up .tong p{
+			width: 230px;
+			height: 30px;
+			/*background-color: red;*/
+			background-image: url(img/icon-rank-item.png);
+			background-repeat: no-repeat;
+			text-indent: 5px;
+			font-size: 14px;
+		}
+		.context-right .right-up .tong span{
+			color: white;
+		}
+		.context-right .wujiao{
+			width: 230px;
+			height: 410px;
+			background-color: #FCFAFB;
+			margin-top: 1px;
+			padding: 20px;
+			position: relative;
+		}
+		.context-right .wujiao .wujiaotu{
+			width: 230px;
+			height: 185px;
+			/*background-color: red;*/
+		}
+		.wujiao .wujiaotu .huangse{
+			width: 25px;
+			height: 25px;
+			opacity: 0.9;
+			margin-left: 100px;
+		}
+		.wujiao .wujiaotu .liangse{
+			width: 230px;
+			height: 170px;
+			background-color: #A0E1F3;
+			position: absolute;
+			top:32px;
+		}
+		.wujiao .wujiaotu .liangse img{
+			width: 230px;
+			height: 170px;
+		}
+		.wujiao .wujiaotengxun{
+			font-size: 20px;
+			margin-bottom: 20px;
+			margin-top: 20px;
+		}
+		.wujiao .wujiaodaxue{
+			font-size: 14px;
+			line-height: 24px;
+		}
+		.context-right .lianxi{
+			width: 230px;
+			height: 398px;
+			background-color: #FCFAFB ;
+			padding: 20px;
+			margin-top: 1px;
+		}
+		.context-right .lianxi .tel{
+			width: 230px;
+			height: 70px;
+			margin-top: 20pxs;
+			line-height: 38px;
+			font-size: 14px;
+		}
+		.context-right .lianxi .kaoshi{
+			width: 200px;
+			height: 110px;
+			background-color: #D4D4D4;
+			margin: 0 auto;
+			font-size: 35px;
+			font-weight: bold;
+			text-align: center;
+			line-height: 60px;
+			margin-top: 20px;
+		}
+		.caisexian{
+			width: 100%;
+			height:3px;
+			background-color: red;
+		}
+		.caise {
+			width: 25%;
+			height:3px;
+			float: left;
+		}
+		.blue{
+			background-color: darkturquoise;
+		}
+		.orange{
+			background-color: orange;
+		}
+		.green{
+			background-color:yellowgreen;
+		}
+        .buttom{
+			width: 100%;
+			height: 520px;
+			background-color:#F6F6F6;
+		}
+		.buttom-up{
+			width: 1000px;
+			height: 400px;
+			margin: 0 auto;
+		}
+		.buttom-up .up-left{
+			width: 700px;
+			height:370px;
+			background-color:#F6F6F6;
+			line-height: 32px;
+			padding-top: 30px;
+			font-size: 14px;
+			float: left;
+		}
+		.buttom-up .up-left .tupian {
+			padding-left: 28px;
+		}
+		.buttom-up .up-left .hezuo {
+			float: left;
+		}
+		.buttom-up .up-left .tengxun{
+			padding-left: 28px;
+		}
+		.buttom-up .up-right{
+			width: 240px;
+			height: 350px;
+			background-color:#F6F6F6;
+			margin-left: 50px;
+			padding-top: 50px;
+			font-size: 14px;
+			float: left;
+		}
+		.buttom-up .up-right .weibo{
+			margin-bottom: 50px;
+			padding-left: 10px;
+		}
+        .buttom-down{
+			width: 100%;
+			height: 95px;
+			background-color:#BABABA;
+			text-align: center;
+			font-size: 14px;
+			line-height: 22px;
+			padding-top: 25px;
+		}
+		</style>
+	</head>
+	<body>
+		<!--首页头部-->
+		<header>
+			<!--logo图片-->
+			<div class="logo">
+			<img src="img/logo.png"/>
+			</div>
+			<!--导航盒子-->
+			<div class="nav">
+				<ul>
+			        <a href="#" title="首页"><li class="nav0 nav1"></li></a>
+			        <a href="#" title="微信学院"><li class="nav0 nav2"></li></a>
+			        <a href="#" title="开放平台学院"><li class="nav0 nav3"></li></a>
+			        <a href="#" title="互联网学院"><li class="nav0 nav4"></li></a>
+			        <a href="#" title="营销学院"><li class="nav0 nav5"></li></a>
+			        <a href="#" title="游戏学院"><li class="nav0 nav6"></li></a>
+				</ul>
+			</div>
+			<!--登陆盒子-->
+			<div class="enter">
+			<img src="img/qq.png"/>
+			<p>登录</p>
+			</div>
+		</header>
+		<!--轮播图-->
+		<div class="banner">
+			
+		</div>
+	    <!--直播预告-->
+	    <div class="foreshow">
+	    	<!--直播预告图片-->
+	    	<img src="img/live-title.png"/>
+	    	<!--预告下盒子-->
+	     	<div class="yugao">
+	     		<div class="yugao-left"></div>
+	     		<div class="yugao-img"></div>
+	     		<div class="yugao-wenzi">
+	     			<h2>WISE2016独角兽大会｜与商业领袖同行</h2>
+                    <p class="biao">2016年12月06日</p>
+                    <p class="dujiaoshou">
+                    WISE2016独角兽大会将于12月6日至7日举办。大会邀请到数十位独角兽公司CEO、知名投资人、创业领袖参与。以趋势引领者的角色在寒冬里为广大创业者分享真知灼见，坚定不断探索的信念。多视角梳理互联网创业的过去、现在、未来，激励身处寒冬创业者、从业者保持战斗，继续前行。
+                    </p>
+	     		</div>
+	     		<div class="yugao-right"></div>
+	     	</div>
+	    </div>
+	     <!--内容-->
+	    <article>
+	    <!--中间内容-->
+	    <div class="context">
+	        <!--左边内容-->
+	        <div class="context-left">
+	        	<!--左边的热门课程-->
+	     	    <div class="renmenkecheng">
+	     	    	<!--热门课程的上边标题-->
+	     	    	<div class="tuwen">
+	                    <img src="img/icon-lesson.png"/>  
+	     	            <h2>热门课程</h2>
+	     	            <span>more</span>
+	     	    	</div>  
+	     	    	<!--热门课程的下边-->
+	     	    	<div class="renmenxia">
+	     	    	    <!--热门课程下边的看点解读1-->
+	     	    		<div class="kandian">
+	     	    			<!--看点解读的图片-->
+	     	    	        <div class="tupian tu1">
+	     	    	  	      <img src="img/remen1.png"/>
+	     	    	        </div>
+	     	    	          <!--看点解读下的文字-->
+	     	    	          <a href="#">9.9公益日全新看点解读</a>
+	     	    	          <p>2016年9月5日日日腾讯在北京召开“9.9公益日”新闻发布会 ，腾讯公司副总裁程武...</p>
+	     	    		</div>
+	     	    		<!--热门课程下边的看点解读2-->
+	     	    	    <div class="kandian kan1">
+	     	    	        <div class="tupian tu2 ">
+	     	    	  	      <img src="img/remen2.jpg"/>
+	     	    	        </div>
+	     	    	          <a href="#">9.9公益日全新看点解读</a>
+	     	    	          <p>2016年9月5日日日腾讯在北京召开“9.9公益日”新闻发布会 ，腾讯公司副总裁程武...</p>
+	     	    		</div>
+	     	    		<!--热门课程下边的看点解读3-->
+	     	    		<div class="kandian kan2">
+	     	    	        <div class="tupian tu3">
+	     	    	  	      <img src="img/remen3.jpg"/>
+	     	    	        </div>
+	     	    	          <a href="#">9.9公益日全新看点解读</a>
+	     	    	          <p>2016年9月5日日日腾讯在北京召开“9.9公益日”新闻发布会 ，腾讯公司副总裁程武...</p>
+	     	    		</div>
+	     	    	</div>
+                </div> 
+                <!--左边的干货分享-->
+                <div class="ganhuofenxiang">
+                    <!--干货分享的上边标题-->
+	     	    	<div class="tuwen">
+	                    <img src="img/icon-share.png"/>  
+	     	            <h2>干货分享</h2>
+	     	            <span>more</span>
+	     	    	</div> 
+	     	    	<!--干货分享下边的盒子1-->
+	     	    	<div class="ganhuo1">
+	     	    		<!--干货分享下边的图片-->
+	     	    		<div class="ganhuotupian">
+	     	    		    <img src="img/ganhuo1.jpg"/>
+	     	    		</div>
+	     	    		<!--干货分享下边的文字-->
+	     	    		<div class="ganhuowenzi">
+	     	    			<h3>漫步云端的58，怎么个神奇法？</h3>
+                            <p class="shijian">2016-11-30 11:24</p>
+                            <p class="shenqi">
+                            58集团于2005年成立，经过11年发展，已成为中国最大的本地生活服务平台，公司业绩稳中有增，这与其迎合互联网发展浪潮，在业务中融入云技术..
+                            </p>
+	     	    		</div>
+	     	    	</div>
+	     	    	<!--干货分享下边的盒子2-->
+	     	    	<div class="ganhuo1 ganhuo2">
+	     	    		<div class="ganhuotupian">
+	     	    			<img src="img/ganhuo2.jpg"/>
+	     	    		</div>
+	     	    		<div class="ganhuowenzi">
+	     	    			<h3>漫步云端的58，怎么个神奇法？</h3>
+                            <p class="shijian">2016-11-30 11:24</p>
+                            <p class="shenqi">
+                            58集团于2005年成立，经过11年发展，已成为中国最大的本地生活服务平台，公司业绩稳中有增，这与其迎合互联网发展浪潮，在业务中融入云技术..
+                            </p>
+	     	    		</div>
+	     	    	</div>
+	     	    	<!--干货分享下边的盒子3-->
+	     	    	<div class="ganhuo1 ganhuo3">
+	     	    		<div class="ganhuotupian">
+	     	    			<img src="img/ganhuo3.jpg"/>
+	     	    		</div>
+	     	    		<div class="ganhuowenzi">
+	     	    			<h3>漫步云端的58，怎么个神奇法？</h3>
+                            <p class="shijian">2016-11-30 11:24</p>
+                            <p class="shenqi">
+                            58集团于2005年成立，经过11年发展，已成为中国最大的本地生活服务平台，公司业绩稳中有增，这与其迎合互联网发展浪潮，在业务中融入云技术..
+                            </p>
+	     	    		</div>
+	     	    	</div>
+                </div>
+                <!--左边的专题课程-->
+                <div class="renmenkecheng zhuanti">
+	     	    	<!--专题课程的上边标题-->
+	     	    	<div class="tuwen">
+	                    <img src="img/icon-lesson.png"/>  
+	     	            <h2>专题课程</h2>
+	     	            <span>more</span>
+	     	    	</div>  
+	     	    	<!--专题课程的下边盒子-->
+	     	    	<div class="renmenxia">
+	     	    		<!--专题课程下边的看点解读1-->
+	     	    		<div class="kandian">
+	     	    			<!--看点解读的图片-->
+	     	    	        <div class="tupian tu1">
+	     	    	  	      <img src="img/zhuanti1.png"/>
+	     	    	        </div>
+	     	    	        <!--看点解读下的文字-->
+	     	    	        <a href="#">9.9公益日全新看点解读</a>
+	     	    	        <p>2016年9月5日日日腾讯在北京召开“9.9公益日”新闻发布会 ，腾讯公司副总裁程武...</p>
+	     	    		</div>
+	     	    		<!--专题课程下边的看点解读2-->
+	     	    	    <div class="kandian kan1">
+	     	    	        <div class="tupian tu2 ">
+	     	    	  	      <img src="img/zhuanti2.jpg"/>
+	     	    	        </div>
+	     	    	        <a href="#">9.9公益日全新看点解读</a>
+	     	    	        <p>2016年9月5日日日腾讯在北京召开“9.9公益日”新闻发布会 ，腾讯公司副总裁程武...</p>
+	     	    		</div>
+	     	    		<!--专题课程下边的看点解读3-->
+	     	    		<div class="kandian kan2">
+	     	    	        <div class="tupian tu3">
+	     	    	  	      <img src="img/zhuanti3.jpg"/>
+	     	    	        </div>
+	     	    	        <a href="#">9.9公益日全新看点解读</a>
+	     	    	        <p>2016年9月5日日日腾讯在北京召开“9.9公益日”新闻发布会 ，腾讯公司副总裁程武...</p>
+	     	    		</div>
+	     	    	</div>
+                </div>
+                <!--左边的精品课程-->
+                <div class="jingpin">
+                	<!--精品课程的上边标题-->
+	     	    	<div class="tuwen">
+	                    <img src="img/icon-lesson.png"/> 
+	     	            <h2>精品课程</h2>
+	     	            <span>more</span>
+	     	    	</div>
+	     	    	<!--精品课程下的产品盒子-->
+	     	    	<div class="chanpin">
+	     	    		<!--盒子最上面的图标-->
+	     	    		<div class="tubiao">
+	     	    		产品
+	     	    	    <span>more</span>	 
+	     	    		</div>
+	     	    		<!--盒子的大图片-->
+	     	    		<div class="jingpintu">
+	     	    		<img src="img/jingpin1.jpg"/>	
+	     	    		</div>
+	     	    		<!--盒子下的文字-->
+	     	    		<p class="yegou">李三水：野狗三字经</p>
+	     	    		<p class="lisanshui">2016年3月，W上海广告公司创始人李三水就野狗的三字经原则做了相关分享，李三水分享W公司的野狗文化，..</p>
+	     	    		<p class="fabu">2015腾讯研究院年度报告发布会</p>
+	     	    		<p class="fabu">2015腾讯研究院年度报告发布会</p>
+                    </div>
+	     	    	<!--精品课程下的营销销售盒子-->
+                    <div class="chanpin yingxiao">
+	     	    		<!--盒子最上面的图标-->
+	     	    		<div class="tubiao ying">
+	     	    		营销销售
+	     	    	    <span>more</span>	 
+	     	    		</div>
+	     	    		<!--盒子的大图片-->
+	     	    		<div class="jingpintu">
+	     	    		<img src="img/jingpin2.png"/>	
+	     	    		</div>
+	     	    		<!--盒子下的文字-->
+	     	    		<p class="yegou">李三水：野狗三字经</p>
+	     	    		<p class="lisanshui">2016年3月，W上海广告公司创始人李三水就野狗的三字经原则做了相关分享，李三水分享W公司的野狗文化，..</p>
+	     	    		<p class="fabu">2015腾讯研究院年度报告发布会</p>
+	     	    		<p class="fabu">2015腾讯研究院年度报告发布会</p>
+                    </div>
+	     	    	<!--精品课程下的技术盒子-->
+                    <div class="chanpin jishu">
+	     	    		<!--盒子最上面的图标-->
+	     	    		<div class="tubiao ji">
+	     	    		技术
+	     	    	    <span>more</span>	 
+	     	    		</div>
+	     	    		<!--盒子的大图片-->
+	     	    		<div class="jingpintu">
+	     	    		<img src="img/jingpin3.png"/>	
+	     	    		</div>
+	     	    		<!--盒子下的文字-->
+	     	    		<p class="yegou">李三水：野狗三字经</p>
+	     	    		<p class="lisanshui">2016年3月，W上海广告公司创始人李三水就野狗的三字经原则做了相关分享，李三水分享W公司的野狗文化，..</p>
+	     	    		<p class="fabu">2015腾讯研究院年度报告发布会</p>
+	     	    		<p class="fabu">2015腾讯研究院年度报告发布会</p>
+                    </div>
+	     	    	<!--精品课程下的通用素质盒子-->
+                    <div class="chanpin suzhi">
+	     	    		<!--盒子最上面的图标-->
+	     	    		<div class="tubiao su">
+	     	    		通用素质
+	     	    	    <span>more</span>	 
+	     	    		</div>
+	     	    		<!--盒子的大图片-->
+	     	    		<div class="jingpintu">
+	     	    		<img src="img/jingpin4.jpg"/>	
+	     	    		</div>
+	     	    		<!--盒子下的文字-->
+	     	    		<p class="yegou">李三水：野狗三字经</p>
+	     	    		<p class="lisanshui">2016年3月，W上海广告公司创始人李三水就野狗的三字经原则做了相关分享，李三水分享W公司的野狗文化，..</p>
+	     	    		<p class="fabu">2015腾讯研究院年度报告发布会</p>
+	     	    		<p class="fabu">2015腾讯研究院年度报告发布会</p>
+                    </div>
+                </div>
+	        </div>
+	        <!--右边内容-->
+	        <div class="context-right">
+	        	<!--右边最上面的盒子-->
+	        	<div class="right-up">
+	        		<!--盒子里边的上面排行榜-->
+	        		<div class="top">
+	                    <img src="img/icon-rank.png"/>  
+	     	            <span accesskey="pai">排行榜</span>
+	     	    	</div> 
+	     	    	<!--盒子里边的圆点-->
+	     	    	<div class="zuire">
+	     	    		<div class="zui">
+	     	    			最热排行
+	     	    		</div>
+	     	    		<div class="xin">
+	     	    			新课上线
+	     	    		</div>
+	     	    	</div>
+	        	    <!--放五张图片的大盒子-->
+	        	    <div class="zuida">
+	        	        <!--第一个放图片的盒子-->
+	        	        <div class="weixin">
+	        	    	    <img src="img/zuire1.jpg"/>
+	        	    	    <!--第一个放图下边的字的设置-->
+	        	            <div class="weixinzi">
+	        	    	        <div class="shuzi jia1">
+	        	    		    1
+	        	    	        </div>
+	        	    	        <div class="wenzi">
+	        	    		           张小龙：微信四大价值观
+	        	    	        </div>
+	        	            </div>
+	        	        </div>
+	        	        <!--第二个放图片的盒子-->
+	        	        <div class="weixin">
+	        	    	    <img src="img/zuire2.jpg"/>
+	        	    	    <!--第二个放图下边的字的设置-->
+	        	            <div class="weixinzi">
+	        	    	        <div class="shuzi jia2">
+	        	    		     2
+	        	    	        </div>
+	        	    	        <div class="wenzi">
+	        	    		            张小龙：微信四大价值观
+	        	    	         </div>
+	        	            </div>
+	        	        </div>
+	        	        <!--第三个放图片的盒子-->
+	        	        <div class="weixin">
+	        	    	    <img src="img/zuire3.png"/>
+	        	    	    <!--第三个放图下边的字的设置-->
+	        	            <div class="weixinzi">
+	        	    	        <div class="shuzi jia3">
+	        	    		    3
+	        	    	        </div>
+	        	    	        <div class="wenzi">
+	        	    		          张小龙：微信四大价值观
+	        	    	        </div>
+	        	            </div>
+	        	        </div>
+	        	        <!--第四个放图片的盒子-->
+	        	        <div class="weixin">
+	        	    	     <img src="img/zuire4.jpg"/>
+	        	    	    <!--第四个放图下边的字的设置-->
+	        	            <div class="weixinzi">
+	        	    	        <div class="shuzi jia2">
+	        	    		    4
+	        	    	        </div>
+	        	    	        <div class="wenzi">
+	        	    		           张小龙：微信四大价值观
+	        	    	        </div>
+	        	            </div>
+	        	        </div>
+	        	        <!--第五个放图片的盒子-->
+	        	        <div class="weixin">
+	        	    	    <img src="img/zuire5.png"/>
+	        	    	    <!--第五个放图下边的字的设置-->
+	        	            <div class="weixinzi">
+	        	    	        <div class="shuzi jia3">
+	        	    	     	5
+	        	    	        </div>
+	        	    	        <div class="wenzi">
+	        	    	     	张小龙：微信四大价值观
+	        	    	        </div>
+	        	            </div>
+	        	        </div>
+	        	    </div>
+	        	    <!--右边盒子最下边的文字-->
+	        	    <div class="tong">
+	        	        <p>
+	        	        <span>6 </span>	
+	        	                     马化腾：通向互联网未来的七...
+	        	        </p>
+	        	        <p>
+	        	        <span>7</span>	
+	        	                     马化腾：通向互联网未来的七...
+	        	        </p>
+	        	        <p>
+	        	        <span>8 </span>	
+	        	                     马化腾：通向互联网未来的七...
+	        	        </p>
+	        	        <p>
+	        	        <span>9 </span>	
+	        	                     马化腾：通向互联网未来的七...
+	        	        </p>
+	        	        <p>
+	        	        <span>10 </span>	
+	        	                     马化腾：通向互联网未来的七...
+	        	        </p>
+	        	    </div> 
+	        	</div>
+	            <!--右边中间的盒子-->
+	             <div class="wujiao">
+	             	<!--盒子包括的两张图片-->
+	             	<div class="wujiaotu">
+	             		<!--大图片-->
+	             	    <div class="liangse">
+	             		<img src="img/you_daxue.png"/>
+	             	    </div>
+	             	    <!--小图片-->
+	             	    <div class="huangse">
+	             		<img src="img/icon-mark.png"/>
+	             	    </div>
+	             	</div>
+	             	<!--右边中间盒子图片下的字-->
+	             	<p class="wujiaotengxun">腾讯大学</p>
+	             	<p class="wujiaodaxue">腾讯大学作为腾讯特色的学习交流平台，服务于腾讯合作伙伴及用户，面向互联网产业链，传播腾讯经验，分享行业知识及优秀实践，助力合作伙伴成长，推动开放共赢的互联网生态圈的建立。</p>
+	             </div>
+	            <!--右边下边的盒子的联系我们-->
+	            <div class="lianxi">
+	            	<!--右边下边的盒子的联系我们-->
+	            	<div class="top">
+	                    <img src="img/icon-phone.png"/>  
+	     	            <span accesskey="pai">联系我们</span>
+	     	    	</div> 
+	     	    	<!--右边下边的盒子的qq和合作-->
+	     	    	<div class="tel">
+	     	    	<p>	合作：university@tencent.com</p>
+                    <p>QQ：2813343187</p>    
+	     	    	</div>
+	     	    	<!--右边下边的盒子的在线考试-->
+	     	    	<div class="kaoshi">
+	     	            <p>在线考试</p>            
+	     	    		<img src="img/exam-btn.png"/>
+	     	    	</div>
+	            </div>
+	        </div>
+	    </div>  
+	    </article>
+		<!--彩色的线-->
+w		<div class="caisexian">
+				<div class="caise blue"></div>
+				<div class="caise orange"></div>
+				<div class="caise green"></div>
+			</div>
+		<!--底部-->
+		<div class="buttom">
+			<!--底部上面盒子-->
+	     	<div class="buttom-up">
+	     	<!--底部上面左边的盒子-->
+	     	<div class="up-left">
+	     	<!--上面左边盒子的图片内容-->
+	     	<dl>
+	     		<dt>开放平台</dt>
+	     		<dd>
+	     		<img class="tupian" src="img/kaifang1.png"/>
+	     		<img class="tupian" src="img/kaifang10.png"/>
+	     		<img class="tupian" src="img/kaifang11.png"/>
+	     		<img class="tupian" src="img/kaifang3.png"/>
+	     		<img class="tupian" src="img/kaifang4.png"/>
+	     		<img class="tupian" src="img/kaifang13.png"/>
+	     	    <img class="tupian" src="img/kaifang14.png"/>
+	     		<img class="tupian" src="img/kaifang9.png"/>
+	     		<img class="tupian" src="img/kaifang1.png"/>
+	     		<img class="tupian" src="img/kaifang10.png"/>
+	     		<img class="tupian" src="img/kaifang11.png"/>
+	     		<img class="tupian" src="img/kaifang3.png"/>
+	     		<img class="tupian" src="img/kaifang4.png"/>
+	     		<img class="tupian" src="img/kaifang13.png"/>
+	     		更多
+	     	</dd>
+	     	<!--上面左边盒子下边的文字-->
+	     	</dl>
+	        <dl class="hezuo">
+	        	<dt>合作伙伴</dt>
+	        	<dd class="tengxun">腾讯云论坛</dd>
+	        	<dd class="tengxun">腾讯云论坛</dd>
+	        	<dd class="tengxun">腾讯云论坛</dd>
+	        </dl>
+	        <dl class="hezuo">
+	        	<dt>&nbsp;</dt>
+	        	<dd class="tengxun">TechWeb</dd>
+	        	<dd class="tengxun">腾讯云论坛</dd>
+	        	<dd class="tengxun">腾讯云论坛</dd>
+	        </dl>
+	        <dl class="hezuo">
+	        	<dt>&nbsp;</dt>
+	        	<dd class="tengxun">Alloyteam</dd>
+	        	<dd class="tengxun">腾讯云论坛</dd>
+	        	<dd class="tengxun">腾讯云论坛</dd>
+	        </dl>
+	        <dl class="hezuo">
+	        	<dt>&nbsp;</dt>
+	        	<dd class="tengxun">腾讯云论坛</dd>
+	        	<dd class="tengxun">腾讯云论坛</dd>
+	        	<dd class="tengxun">腾讯云论坛</dd>
+	        </dl>
+	        <dl class="hezuo">
+	        	<dt>&nbsp;</dt>
+	        	<dd class="tengxun">腾讯云论坛</dd>
+	        	<dd class="tengxun">腾讯云论坛</dd>
+	        </dl>
+	        <dl class="hezuo">
+	        	<dt>&nbsp;</dt>
+	        	<dd class="tengxun">腾讯云论坛</dd>
+	        	<dd class="tengxun">腾讯云论坛</dd>
+	        </dl>
+	     	</div>	
+	     	<!--底部上面右边的盒子-->
+	     	<div class="up-right">
+	     		<p>收听微博</p>
+	     		<p class="weibo"> <img src="img/opentweibo.png"/></p>
+	     		<p>空间关注</p>
+	     		<p class="weibo"> <img src="img/openzone.png"/></p>
+	     	</div>
+	     	</div>
+	     	<!--底部下面的盒子-->
+            <div class="buttom-down">
+	     	<p>	服务协议|隐私政策|版权保护投诉指引</p>
+            <p> Copyright © 1998 - 2016 Tencent. All Rights Reserved.</p> 
+            <p>腾讯公司 版权所有</p> 
+	     	</div>
+	     </div>
+	</body>
+</html>
+
+ 

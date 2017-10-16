@@ -1,0 +1,139 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#top{
+	width: 1000px;
+	height: 50px;
+	background-color:#FDFBFE;
+    margin:  0 auto;
+    margin-top:50px;
+}
+#lo1{
+	width: 310px;
+	height: 50px;
+	background-color: #FDFBFE;
+	background-image: url(../img/sprite.png);
+	float: left;
+}
+#lo2{
+	width: 454px;
+	height: 50px;
+	background-image: url(../img/sprite.png);
+	float: left;
+	background-position-x: -308px;
+	background-position-y: 12px;
+	margin-left: 235px;
+}
+#lo3{
+	width:990px;
+	height: 590px;
+	background-color: initial;
+	 margin:  0 auto;
+	background-image: url(../img/99.jpg);
+	margin-top: 50px;
+}
+#box{
+	width: 300px;
+	height: 350px;
+	background-color: initial;
+	float: right;
+	margin-right: 85px;
+	margin-top: 36px;
+}
+#box p {
+	line-height: 30px;
+}
+#box .tex input{
+	width: 250px;
+	height: 30px;
+	border-radius: 4px;
+	text-indent: 10px;
+	outline: none;
+}
+.ni{
+	font-size: 15px;
+	margin-top: 20px;
+}
+.mi{
+	margin-top: 20px;
+}
+#ll{
+	width: 155px;
+	height: 40px;
+	background-color: hotpink;
+	font-family: "微软雅黑";
+	font-size: 20px;
+	color: white;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+}
+.wenzi{
+	font-size: 12px;
+	color:black ;
+	margin-top: 20px;
+}
+.wenzi span{
+	margin-right: 25px;
+}
+.zhuce{
+	color: red;
+	text-decoration: none;
+}
+.mima{
+	color: black;
+	text-decoration: none;
+}
+.mima:hover{
+	color: red;
+}
+#hezuo{
+	font-size: 12px;
+	color: #000000;
+	margin-top: 30px;
+}
+.zl{
+	width: 24px;
+	height:24px;
+	background:url(img/sprite.png) -291px -57px;
+	float: left;
+	list-style: none;	
+	border: none;
+	margin-top: 10px;
+	
+}
+.zl1:hover{
+	background-position-x:-263px;
+}
+.zl2{
+	background-position-x: -236px;
+	float: left;
+	margin-left: 10px;
+}
+.zl2:hover{
+	background-position-x: -347px;
+	
+}
+.zl3{
+	background-position-x: -179px;
+	float: left;
+	margin-left: 10px;
+}
+.zl3:hover{
+	background-position-x: -152px;
+}
+.zl4{
+	background-position-x:-208px ;
+	float: left;
+	margin-left: 10px;
+}
+.zl4:hover{
+	background-position-x: -320px;
+}
+#BB{
+	width: 1596px;
+	height: 750px;
+	background-color:initial;
+	margin: 0;
+}

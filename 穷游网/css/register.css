@@ -1,0 +1,262 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.bigbox{
+	width: 1600px;
+	height: 750px;
+	background-color: red;
+	margin: 0 auto;
+	position: relative;
+}
+.colorphoto{
+	width: 1600px;
+	height: 750px;
+	background-color: paleturquoise;
+	background-image:url(img/web_login_bg.ecb39528.jpg);
+	background-repeat:no-repeat ;
+	margin: 0 auto;
+	
+}
+.colorphoto img{
+	width: 1600px;
+	height: 750px;
+}
+.opbox{
+	width: 380px;
+	height:550px;
+	/*background-color: palevioletred;*/
+	position: absolute;
+	top: 50px;
+	left: 600px;
+}
+.opbox .qiongyouzhuce{
+	width: 380px;
+	height: 90px;
+	/*background-color: burlywood;*/
+}
+.opbox .qiongyouzhuce .zhucephoto{
+	width: 130px;
+	height: 50px;
+	/*background-color: darkgray;*/
+	float: left;
+	margin-left:70px;
+}
+.opbox .qiongyouzhuce img{
+	width: 130px;
+	height: 50px;
+}
+.opbox .qiongyouzhuce .title{
+    width:100px;
+    height: 25px;
+    /*background-color: skyblue;*/
+	font-size:26px ;
+	color: white;
+	font-weight: bold;
+	float: left;
+	margin-top: 16px;
+	margin-left: 5px;
+}
+.opbox .zhuceform{
+	width: 340px;
+	height: 420px;
+	background-color:rgba(255,255,255,0.9);
+	padding: 20px;
+}
+#afuhan{
+	width: 80px;
+	height: 40px;
+	border: 1px solid #D7D7D7 ;
+	float: left;
+}
+.zhucexiaobox{
+	width: 340px;
+	height: 40px;
+	/*background-color: red;*/
+}
+#zhucetel{
+	width: 240px;
+	height: 40px;
+	background-color: white;
+	border: 1px solid #D7D7D7 ;
+	float: left;
+	margin-left:5px;
+	font-size: 14px;
+	padding-left: 10px;
+}
+.zhuceform .xiaoboxyanzhengma{
+	width: 340px;
+	height: 40px;
+	/*background-color: red;*/
+	margin-top: 30px;
+}
+#zhucetel2{
+	width: 195px;
+	height: 40px;
+	background-color: white;
+	border: 1px solid #D7D7D7 ;
+	float: left;
+	font-size: 14px;
+	padding-left: 10px;
+	margin-right: 5px;
+	float: left;
+}
+.xiaoboxduanxin{
+	width: 340px;
+	height: 40px;
+	/*background-color: red;*/
+	margin-top: 30px;
+}
+.jieshouyanzheng{
+	width: 125px;
+	height: 40px;
+	background-color:#3F9F5F;
+	float: left;
+	text-align: center;
+	line-height:40px;
+	border-radius:4px ;
+}
+.jieshouyanzheng a{
+	text-decoration: none;
+	color: white;
+	font-size: 16px;
+}
+#zhucetel3{
+	width: 330px;
+	height: 40px;
+	background-color: white;
+	border: 1px solid #D7D7D7 ;
+	float: left;
+	font-size: 14px;
+	padding-left: 10px;
+	float: left;
+	margin-top: 30px;
+}
+.zhucehezi{
+	width: 330px;
+	height: 40px;
+	background-color:#3F9F5F;
+	float: left;
+	text-align: center;
+	line-height:40px;
+	border-radius:4px ;
+	margin-top: 30px;	
+}
+.zhucehezi a{
+	text-decoration: none;
+	color: white;
+	font-size: 16px;
+}
+.bangbang{
+	width: 200px;
+	height: 30px;
+	background-color: darkcyan;
+}
+#baozhale{
+	font-size: 14px;
+	color:#959595 ;
+}
+#baozhale a{
+	text-decoration: none;
+	color: #3F9F5F;
+	font-size: 14px;
+}
+#baozhale a:hover{
+	border-bottom: 1px solid #3F9F5F;
+}
+#shengming{
+	font-size: 14px;
+	color:#959595 ;
+	margin-left: 30px;
+}
+#shengming a{
+	text-decoration: none;
+	color: #3F9F5F;
+	font-size: 14px;
+}
+#shengming a:hover{
+	border-bottom: 1px solid #3F9F5F;
+}
+.foot{
+	width: 100%;
+	height:210px;
+	background-color:#363636;
+}
+.footup{
+	width:900px;
+	height: 130px;
+	margin: 0 auto;
+}
+.footup .dlcaidan{
+	width:140px;
+	height: 110px;
+	float: left;
+	padding-top: 20px;
+}
+.dlcaidan dt{
+	width: 70px;
+	color: #C0C0C0;
+	font-size: 13px;
+	margin-bottom: 10px;
+	font-weight:bold;
+}
+.dlcaidan dd {
+	width: 48px;
+	color: #959595;
+	font-size: 12px;
+	line-height: 20px;
+}
+.dlcaidan dd:hover {
+	border-bottom:1px solid  #959595;
+}
+.xuebiphoto{
+	width: 85px;
+	height: 110px;
+	float: left;
+	color: #C0C0C0;
+	font-size: 13px;
+	font-weight:bold;
+	padding-top: 20px;
+}
+.xuebixiaotu{
+	width: 85px;
+	height: 60px;
+	background-image: url(img/headfoot2.99dfed4c.png);
+	background-position-y:-1080px;
+	float: left;
+	margin-top: 10px;
+}
+.appstore{
+	width: 135px;
+	height: 70px;
+	background-image: url(img/headfoot2.99dfed4c.png);
+	background-position-y:-58px;
+	float: left;
+	margin-left: 60px;
+	margin-top: 15px;
+}
+.footdown{
+	width:900px;
+	height: 80px;
+	margin: 0 auto;
+}
+.footdown .foottu{
+	width:80px;
+	height:30px;
+	float: left;
+	margin-top:20px ;
+}
+.footdown .foottu img{
+	width:80px;
+	height:30px;
+}
+.footdown .footcenter{
+	width: 800px;
+	height:40px;
+	float: left;
+	margin-top:20px ;
+}
+.footdown .footcenter p{
+	font-size: 12px;
+	color: #959595;
+}
